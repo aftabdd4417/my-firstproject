@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background: black;
+  padding: 7px 7%;
+}
+header a {
+  text-decoration: none;
+  color: #808080;
+  padding-right: 15px;
+}
+.page-heading {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 50px 7% 10px 7%;
+}
+.page-heading > span {
+  font-weight: normal;
+  font-size: 15px;
+  color: #9a9a9a;
+}
+section {
+  padding: 20px 6%;
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+}
+.iconbox {
+  width: 31%;
+  display: inline-block;
+  padding: 20px 1%;
+}
+.iconbox > p {
+  color: #428bca;
+  font-weight: 700;
+}
+img {
+  width: 100%;
+}
+.copyright {
+  padding: 10px 7%;
+}
+@media only screen and (max-width: 949px) {
+  .iconbox {
+    width: 100%;
+    padding: 1%;
+  }
+}
