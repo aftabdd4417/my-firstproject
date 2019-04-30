@@ -1,0 +1,43 @@
+.singlebox {
+    border: 1px solid #083507;
+    padding: 50px 100px;
+    display: inline-block;
+}
+.mainbox {
+    position: relative;
+    width: 404px;
+    height: 204px;
+    margin-left: 32%;
+    margin-top: 18%;
+
+}
+.singlebox.four.common {
+    right: 0;
+    bottom: 0;
+    border-color: red;
+}
+.singlebox.three.common {
+    left: 0;
+    bottom: 0;
+    border-color: green;
+}
+.singlebox.two.common {
+    top: 0;
+    right: 0;
+    border-color: yellow;
+}
+.singlebox.one.common {
+    top: 0;
+    left: 0;
+    border-color: red;
+}
+.singlebox {
+    position: absolute;
+}
+.upperbox.common {
+    border: 2px solid green;
+    padding: 49px 49px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
