@@ -1,0 +1,186 @@
+html {
+    background: url(background-image.png);
+}
+body {
+    margin: 0 50px 0 50px;
+}
+h1,h2,h3,h4,h5 {
+   color: #849c90;
+   margin: 10px 0 10px 0px;
+}
+a {
+    color: #966060;
+}
+header {
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.topheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+}
+.leftheader {
+    display: flex;
+}
+.leftheader img {
+    margin-right: 6%;
+}
+
+.leftheader {
+    display: flex;
+}
+.leftheader img {
+    margin-right: 6%;
+}
+.rightheader {
+    text-align: center;
+}
+a {
+  text-decoration: none;
+}
+nav.clearfix {
+    font-family: monospace;
+    background: #966060;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+section.mainsec {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.review {
+    margin-bottom: 8px;
+}
+nav.clearfix li {
+  display: inline-flex;
+  padding: 5px 5px;
+  border-right: 1px solid #d4d3d3;
+}
+li {
+    list-style-type: none;
+    line-height: 1.6;
+}
+li.phoneno {
+    float: right;
+    border: none !important;
+}
+nav.clearfix li a {
+  color: white;
+}
+li.phoneno a {
+  color: black !important;
+}
+section.mainsec, footer {
+    display: flex;
+    background: white;
+    padding: 4px 4px 4px 4px;
+}
+.sidebar {
+    padding: 10px 10px 10px 0;
+}
+.widget {
+    position: relative;
+    background: #e2e2e2;
+    border: 1px solid #966060;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.widgetheader {
+    background: #966060;
+    padding: 3px 10px;
+    color: white;
+}
+.need-assistane-innercall,.need-assistane-innertext {
+    position: absolute;
+    background: rgba(1, 1, 1, 0.4);
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.need-assistane-innercall{
+    bottom: 0;
+}
+.need-assistane-innertext {
+    top: 0;
+}
+.content-section {
+    display: flex;
+}
+.content-section {
+    display: flex;
+    padding-top: 10px;
+}
+.cover.images img {
+    width: 100%;
+}
+.cover.images, .scroll-images {
+    position: relative;
+    height: 380px;
+    overflow: hidden;
+}
+.scroll-text {
+    position: absolute;
+    bottom: 50px;
+    right: 5px;
+    width: 250px;
+    font-size: 25px;
+    line-height: 1.5;
+    background: rgba(255, 255, 255, 0.69);
+    padding: 20px 15px;
+    color: black;
+}
+
+.scrollnav {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.65);
+    padding: 5px;
+}
+.scrollnav span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.content {
+    padding-right: 15px;
+}
+.content ul {
+    padding-left: 0px;
+}
+.widget.getupdate .widget-body {
+    text-align: center;
+}
+.widget.getupdate input {
+    margin-bottom: 7px;
+}
+button.button.search, input[type="submit"] {
+    background: #966060;
+    border: 3px solid #966060;
+    color: white;
+    border-radius: 3px;
+}
+input[type="text"], input[type="email"] {
+    padding: 3px 3px;
+    border-radius: 3px;
+    border: 1px solid #afafaf;
+}
+.footer-widget img {
+    width: 100%;
+}
+.footer-widget ul {
+    padding: 0;
+}
+.footer-widget {
+    width: 16.7%;
+    padding: 15px;
+}
+.footer-widget.one, .footer-widget.six {
+    display: flex;
+}
+.footer-widget.one img, .footer-widget.six p {
+    align-self: center;
+}
