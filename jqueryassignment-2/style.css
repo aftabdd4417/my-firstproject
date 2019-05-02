@@ -1,0 +1,26 @@
+html {
+    background: url(background-image.png);
+}
+.validation-form form input {
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.validation-form form input {
+    margin-bottom: 10px;
+}
+.validation-form form {
+    display: inline-grid;
+}
+.validation-form {
+    text-align: center;
+}
+form {
+    background: rgba(69, 139, 255, 0.27);
+    padding: 20px;
+    border-radius: 5px;
+}
+input#submit {
+    background: #6e1e77;
+    color: wheat;
+}
